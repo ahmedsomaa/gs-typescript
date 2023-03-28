@@ -20,7 +20,13 @@ it has to be compiled down to JavaScript. So the question has to be asked, why T
 
 - **Code editor support** – IDEs or code editors like VS Code support autocomplete for a TypeScript codebase. They also provide inline documentation and highlight the errors.
 
-- **Use existing packages** – You might want to use an npm package that is written in JavaScript. Since TypeScript is a superset of JavaScript, you can import and use that package. Moreover, the TypeScript community creates and maintains type definitions for popular packages that can be utilized in your project
+- **Use existing packages** – You might want to use an npm package that is written in JavaScript. Since TypeScript is a superset of JavaScript, you can import and use that package. Moreover, the TypeScript community creates and maintains type definitions for popular packages that can be utilized in your project.
+
+## Installing TypeScript
+
+- Make sure to have [nodejs](https://nodejs.org) installed on your machine. You can check using `node --version`.
+- Run the commmand `npm install -g typescript`.
+- Run the command `tsc` to make sure TypeScript is installed.
 
 ## References
 
