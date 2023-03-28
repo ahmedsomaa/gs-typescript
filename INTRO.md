@@ -22,11 +22,11 @@ it has to be compiled down to JavaScript. So the question has to be asked, why T
 
 - **Use existing packages** – You might want to use an npm package that is written in JavaScript. Since TypeScript is a superset of JavaScript, you can import and use that package. Moreover, the TypeScript community creates and maintains type definitions for popular packages that can be utilized in your project.
 
-## Installing TypeScript
+## Installing and Using TypeScript
 
 - Make sure to have [nodejs](https://nodejs.org) installed on your machine. You can check using `node --version`.
 - Run the commmand `npm install -g typescript`.
-- Run the command `tsc` to make sure TypeScript is installed.
+- To use TypeScript, you can run the command `tsc` on any `.ts` file and it will compile it down to JavaScript.
 
 ## References
 
