@@ -2,33 +2,16 @@
 
 ## Core Types
 
-- **number**
+| Type    | Example              | Notes                                                   |
+| ------- | -------------------- | ------------------------------------------------------- |
+| number  | 1, 2.5, -10          | All numbers, no difference between integers or decimals |
+| string  | 'TS', "TS", \`TS\`   | All text values                                         |
+| boolean | true, false          | Just these two values, no "truthy" or "falsey" values   |
+| object  | {lang: 'TypeScript'} | Any JavaScript object, more specific types are possible |
+| Array   | [1, 2, 3]            | Any JavaScript array, type can be mixed or strict       |
+| Tuple   | [2, 'John']          | Fixed-length array added by TypeScript                  |
 
-  represents all types of numbers including integers and decimals for example: 1, 2.5, -10...etc.
-
-- **string**
-
-  represents single or multiple charachters and can be created using either single or double quotes or backticks (Template Literals) for example: 'TS', "TS", \`TS\`
-
-- **boolean**
-
-  true or false just these two values, no "truthy" or "falsey" values.
-
-- **object**
-
-  Any JavaScript object for example `{"language": "TypeScript"}`.
-
-- **Arrays**
-
-  Any JavaScript array where type can be flexible or strict. For example:
-
-  ```ts
-  // Flexible types
-  let arr = [1, '2', null, true];
-
-  // strict
-  let nums = [1, 2, 3, 4, 5];
-  ```
+- **Tuple**
 
 ## Type Assignment
 
