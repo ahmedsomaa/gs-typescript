@@ -16,7 +16,19 @@
 
 - **object**
 
-  Any JavaScript object for example `{"language": "TypeScript"}`
+  Any JavaScript object for example `{"language": "TypeScript"}`.
+
+- **Arrays**
+
+  Any JavaScript array where type can be flexible or strict. For example:
+
+  ```ts
+  // Flexible types
+  let arr = [1, '2', null, true];
+
+  // strict
+  let nums = [1, 2, 3, 4, 5];
+  ```
 
 ## Type Assignment
 
