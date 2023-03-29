@@ -14,6 +14,10 @@
 
   true or false just these two values, no "truthy" or "falsey" values.
 
+- **object**
+
+  Any JavaScript object for example `{"language": "TypeScript"}`
+
 ## Type Assignment
 
 To declare a variable with type in TypeScript, simply use the colon `:` character and add the type after it.
