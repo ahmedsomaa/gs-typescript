@@ -11,6 +11,7 @@
 | Array   | `[1, 2, 3]`            | Any JavaScript array, type can be mixed or strict                        |
 | Tuple   | `[2, 'John']`          | Fixed-length array added by TypeScript                                   |
 | Enum    | `enum {SAT, SUN, MON}` | Automatically enumerated global constant identifiers added by TypeScript |
+| Any     | `*`                    | Any kind of value, no specific type                                      |
 
 ## Type Assignment
 
