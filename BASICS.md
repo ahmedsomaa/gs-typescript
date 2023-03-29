@@ -2,14 +2,15 @@
 
 ## Core Types
 
-| Type    | Example              | Notes                                                   |
-| ------- | -------------------- | ------------------------------------------------------- |
-| number  | 1, 2.5, -10          | All numbers, no difference between integers or decimals |
-| string  | 'TS', "TS", \`TS\`   | All text values                                         |
-| boolean | true, false          | Just these two values, no "truthy" or "falsey" values   |
-| object  | {lang: 'TypeScript'} | Any JavaScript object, more specific types are possible |
-| Array   | [1, 2, 3]            | Any JavaScript array, type can be mixed or strict       |
-| Tuple   | [2, 'John']          | Fixed-length array added by TypeScript                  |
+| Type    | Example                | Notes                                                                    |
+| ------- | ---------------------- | ------------------------------------------------------------------------ |
+| number  | `1, 2.5, -10`          | All numbers, no difference between integers or decimals                  |
+| string  | `'TS', "TS", \`TS\``   | All text values                                                          |
+| boolean | `true, false`          | Just these two values, no "truthy" or "falsey" values                    |
+| object  | `{lang: 'TypeScript'}` | Any JavaScript object, more specific types are possible                  |
+| Array   | `[1, 2, 3]`            | Any JavaScript array, type can be mixed or strict                        |
+| Tuple   | `[2, 'John']`          | Fixed-length array added by TypeScript                                   |
+| Enum    | `enum {SAT, SUN, MON}` | Automatically enumerated global constant identifiers added by TypeScript |
 
 ## Type Assignment
 
