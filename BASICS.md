@@ -37,7 +37,7 @@ Types are inferred by TypeScript compiler when:
 ```ts
 // Variables are initialized
 let num = 11; // Typescript infers that num is of type number
-num = '11'; // Compile Error: 'Type 'string' is not assignable to type 'number'.'
+num = '11'; // Compile Error: Type 'string' is not assignable to type 'number'.
 
 // Default values are set for parameters
 // Here both a & b are infered to be of type 'number'
