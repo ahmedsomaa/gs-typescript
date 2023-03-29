@@ -11,8 +11,6 @@
 | Array   | [1, 2, 3]            | Any JavaScript array, type can be mixed or strict       |
 | Tuple   | [2, 'John']          | Fixed-length array added by TypeScript                  |
 
-- **Tuple**
-
 ## Type Assignment
 
 To declare a variable with type in TypeScript, simply use the colon `:` character and add the type after it.
