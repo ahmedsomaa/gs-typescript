@@ -13,3 +13,7 @@
 - **boolean**
 
   true or false just these two values, no "truthy" or "falsey" values.
+
+## Side Notes
+
+> JavaScript uses _dynamic types_ (resolved at runtime) while TypeScript uses _static types_ (set during development).
