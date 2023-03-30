@@ -7,3 +7,5 @@ A repo for TypeScript notes for anyone who is starting to learn TypeScript.
 - [Introduction](./INTRO.md)
 
 - [TypeScript Basics](./BASICS.md)
+
+- [TypeScript Compiler](./COMPILER.md)
