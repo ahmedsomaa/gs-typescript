@@ -87,3 +87,5 @@ type Mixed = number | string;
 ## References
 
 [1] [Type Inference in TypeScript](https://www.tutorialsteacher.com/typescript/type-inference)
+
+[2] [TypeScript Type Aliases and Interfaces](https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php)
