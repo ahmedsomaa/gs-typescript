@@ -2,7 +2,7 @@
 
 ## Watch Mode
 
-To run TypeScript in watch mode, use `tsc filename.ts --watch` or `tsc file.ts -w`.
+To run TypeScript in watch mode, use `tsc filename.ts --watch` or `tsc filename.ts -w`.
 
 ## Compile Multiple `.ts` Files
 
