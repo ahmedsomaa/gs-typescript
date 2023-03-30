@@ -66,6 +66,20 @@ nums.push(5); // Ok
 nums.push(true); // Compiler Error: Argument of type 'boolean' is not assignable to parameter of type 'string | number'.
 ```
 
+## Type Alias
+
+Type Aliases allow defining types with a custom name (an Alias).
+
+Type Aliases can be used for primitives like string or more complex types such as objects and arrays.
+
+To create a type alias in TypeScript, just use the `type` keyword followed by an alias and then assign that alias to your type(s).
+
+```ts
+type Num = number;
+type Answer = 'Yes' | 'No';
+type Mixed = number | string;
+```
+
 ## Side Notes
 
 > JavaScript uses _dynamic types_ (resolved at runtime) while TypeScript uses _static types_ (set during development).
