@@ -15,11 +15,11 @@
 
 ## Special Types
 
-| Type                 | Example                                       | Notes                                                                                                      |
-| -------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `unknown`            | `let data: unknown`                           | unknown is a similar, but safer alternative to any. TypeScript will prevent unknown types from being used. |
-| `never`              | `function(): never { throw Error('Error'); }` | never doesn't return and best suited for code that throws an error or infinite loops                       |
-| `undefined` & `null` | `let x: undefined` & `let y: null`            | refer to the JavaScript primitives `undefined` and `null` respectively.                                    |
+| Type                 | Example                                       | Notes                                                                                                          |
+| -------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `unknown`            | `let data: unknown`                           | `unknown` is a similar, but safer alternative to `any`. TypeScript will prevent unknown types from being used. |
+| `never`              | `function(): never { throw Error('Error'); }` | `never` doesn't return and best suited for code that throws an error or infinite loops                         |
+| `undefined` & `null` | `let x: undefined` & `let y: null`            | refer to the JavaScript primitives `undefined` and `null` respectively.                                        |
 
 ## Type Assignment
 
