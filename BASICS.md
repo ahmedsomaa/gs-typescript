@@ -122,6 +122,8 @@ func = displayRes; // Compile Error: Type '(num: number) => void' is not assigna
 
 ## 🔖 References
 
-[1] [Type Inference in TypeScript](https://www.tutorialsteacher.com/typescript/type-inference)
+- [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
-[2] [TypeScript Type Aliases and Interfaces](https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php)
+- [Type Inference in TypeScript](https://www.tutorialsteacher.com/typescript/type-inference)
+
+- [TypeScript Type Aliases and Interfaces](https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php)

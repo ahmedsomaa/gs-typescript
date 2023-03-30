@@ -36,4 +36,4 @@ it has to be compiled down to JavaScript. So the question has to be asked, why T
 
 ## 🔖 References
 
-[1] [What is TypeScript and why should you use it?](https://www.contentful.com/blog/what-is-typescript-and-why-should-you-use-it/)
+- [What is TypeScript and why should you use it?](https://www.contentful.com/blog/what-is-typescript-and-why-should-you-use-it/)
