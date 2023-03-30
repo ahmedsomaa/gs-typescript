@@ -34,6 +34,6 @@ it has to be compiled down to JavaScript. So the question has to be asked, why T
 - Run the commmand `npm install -g typescript`.
 - To use TypeScript, you can run the command `tsc` on any `.ts` file and it will compile it down to JavaScript.
 
-## References
+## 🔖 References
 
 [1] [What is TypeScript and why should you use it?](https://www.contentful.com/blog/what-is-typescript-and-why-should-you-use-it/)

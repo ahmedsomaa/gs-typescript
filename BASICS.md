@@ -116,11 +116,11 @@ func = subtract; // Ok
 func = displayRes; // Compile Error: Type '(num: number) => void' is not assignable to type '(x: number, y: number) => number'. Type 'void' is not assignable to type 'number'.
 ```
 
-## Side Notes
+## 💡 Side Notes
 
 > JavaScript uses _dynamic types_ (resolved at runtime) while TypeScript uses _static types_ (set during development).
 
-## References
+## 🔖 References
 
 [1] [Type Inference in TypeScript](https://www.tutorialsteacher.com/typescript/type-inference)
 

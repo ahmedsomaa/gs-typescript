@@ -2,7 +2,7 @@
 
 A repo for TypeScript notes for anyone who is starting to learn TypeScript.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Introduction](./INTRO.md)
 
