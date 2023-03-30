@@ -80,6 +80,34 @@ type Answer = 'Yes' | 'No';
 type Mixed = number | string;
 ```
 
+## Functions as Types
+
+TypeScript provides a `Function` type to annotate a variable as a function. However, this type doesn't tell anything about the function parameters nor the return type. Therefore, if you want your variable to to be of specific function type, it's better to use TypeScript's function types instead. TypeScripts' function types syntax is `(...params here) => return type`. It looks like an arrow function but it wouldn't return an actual value, instead we identify the return type for the function.
+
+```ts
+function subtract(a: number, b: number) {
+  return a - b;
+}
+
+function displayRes(num: number) {
+  console.log('Subtraction result: ', num);
+}
+
+// Function Type
+let sub: Function;
+
+sub = subtract; // Ok
+sub = displayRes; // Ok
+
+// Though this will not cause a Compile Error
+// it would not make sense most of the time, so
+// it is preferred to use function types instead
+let func: (x: number, y: number) => number;
+
+func = subtract; // Ok
+func = displayRes; // Compile Error: Type '(num: number) => void' is not assignable to type '(x: number, y: number) => number'. Type 'void' is not assignable to type 'number'.
+```
+
 ## Side Notes
 
 > JavaScript uses _dynamic types_ (resolved at runtime) while TypeScript uses _static types_ (set during development).
