@@ -97,7 +97,7 @@ function subtract(a: number, b: number) {
   return a - b;
 }
 
-function displayRes(num: number) {
+function displayResult(num: number) {
   console.log('Subtraction result: ', num);
 }
 
@@ -105,7 +105,7 @@ function displayRes(num: number) {
 let sub: Function;
 
 sub = subtract; // Ok
-sub = displayRes; // Ok
+sub = displayResult; // Ok
 
 // Though this will not cause a Compile Error
 // it would not make sense most of the time, so
@@ -113,7 +113,7 @@ sub = displayRes; // Ok
 let func: (x: number, y: number) => number;
 
 func = subtract; // Ok
-func = displayRes; // Compile Error: Type '(num: number) => void' is not assignable to type '(x: number, y: number) => number'. Type 'void' is not assignable to type 'number'.
+func = displayResult; // Compile Error: Type '(num: number) => void' is not assignable to type '(x: number, y: number) => number'. Type 'void' is not assignable to type 'number'.
 ```
 
 ## 💡 Side Notes
