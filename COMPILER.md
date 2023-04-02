@@ -27,3 +27,8 @@ In order to be able to compile multiple `.ts` files down to `.js` files:
   "exclude": ["node_modules"]
 }
 ```
+
+## 🔖 References
+
+- [tsconfig docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+- [compiler docs](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
