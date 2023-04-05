@@ -21,6 +21,26 @@ if (true) {
 console.log(flag); // Uncaught ReferenceError: flag is not defined
 ```
 
+# Arrow Functions
+
+lets us declare a new function without using the `function` keyword. If the function
+only has one expression, the `return` keyword can be excluded. If the function only has one parameter, we could remove the function parenthesis `()` as well.
+
+```ts
+// old
+function addOld(a: number, b: number) {
+  return a + b;
+}
+
+// new
+const addNew = (a: number, b: number) => {
+  return a + b;
+};
+
+// no return statement
+const addNoReturn = (a: number, b: number) => a + b;
+```
+
 ## 🔖 References
 
 - [JavaScript: Var, Let, or Const? Which One Should you Use?](https://codeburst.io/javascript-var-let-or-const-which-one-should-you-use-2fd521b050fa)
