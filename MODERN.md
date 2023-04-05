@@ -21,7 +21,7 @@ if (true) {
 console.log(flag); // Uncaught ReferenceError: flag is not defined
 ```
 
-# Arrow Functions
+## Arrow Functions
 
 lets us declare a new function without using the `function` keyword. If the function
 only has one expression, the `return` keyword can be excluded. If the function only has one parameter, we could remove the function parenthesis `()` as well.
@@ -39,6 +39,18 @@ const addNew = (a: number, b: number) => {
 
 // no return statement
 const addNoReturn = (a: number, b: number) => a + b;
+```
+
+## Default Function Parameters
+
+ES6 allows the functions to have default values for parameters, and it is preferred to make default function params come last.
+
+```ts
+function add(a: number, b: number = 1) {
+  return a + b;
+}
+
+console.log(add(2)); // prints 3
 ```
 
 ## 🔖 References
