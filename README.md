@@ -9,3 +9,5 @@ A repo for TypeScript notes for anyone who is starting to learn TypeScript.
 - [TypeScript Basics](./BASICS.md)
 
 - [TypeScript Compiler](./COMPILER.md)
+
+- [TypeScript & Modern JavaScript](./MODERN.md)
