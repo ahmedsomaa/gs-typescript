@@ -43,7 +43,7 @@ const addNoReturn = (a: number, b: number) => a + b;
 
 ## Default Function Parameters
 
-ES6 allows the functions to have default values for parameters, and it is preferred to make default function params come last.
+ES6 allows for functions to have default values for parameters, and it is preferred to make default function params come last.
 
 ```ts
 function add(a: number, b: number = 1) {
