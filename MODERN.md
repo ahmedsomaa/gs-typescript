@@ -53,6 +53,47 @@ function add(a: number, b: number = 1) {
 console.log(add(2)); // prints 3
 ```
 
+## The Spread Operator (...)
+
+It expands the array into individual elements. So, it can be used to expand the array in a places where zero or more elements are expected.
+
+Uses cases for the spred operator include:
+
+- Copying an array.
+- Concatenating arrays.
+- Spreading elements together with an individual element.
+- Spreading elements on function calls.
+- Spread syntax for object literals.
+
+```ts
+// Copying an array
+let fruits = ['Apple', 'Orange', 'Banana'];
+let fruitsCopy = [...fruits];
+console.log(fruitsCopy); // ['Apple','Orange','Banana']
+
+// Concatenating arrays
+let arr1 = ['A', 'B', 'C'];
+let arr2 = ['X', 'Y', 'Z'];
+let result = [...arr1, ...arr2];
+console.log(result); // ['A', 'B', 'C', 'X', 'Y', 'Z']
+
+// Spreading elements together with an individual element
+let newFruits = ['Cherry', ...fruits];
+console.log(newFruits); // ['Cherry', 'Apple','Orange','Banana']
+
+// Spreading elements on function calls
+const getFruits = (f1: string, f2: string, f3: string) => {
+console.log(Fruits: ${f1}, ${f2} and ${f3}); };
+getFruits(...fruits); // Fruits: Apple, Orange and Banana
+
+// Spread syntax for object literals
+let obj1 = { id: 101, name: 'Jhon Doe' }
+let obj2 = { age: 25, country: 'USA'}
+const employee = { ...obj1, ...obj2 }
+
+console.log(employee); //{ "id": 101, "name": "Jhon Doe", "age": 25, "country": "USA" }
+```
+
 ## 🔖 References
 
 - [JavaScript: Var, Let, or Const? Which One Should you Use?](https://codeburst.io/javascript-var-let-or-const-which-one-should-you-use-2fd521b050fa)
