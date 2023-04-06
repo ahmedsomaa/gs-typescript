@@ -144,6 +144,4 @@ const { firstName, age } = user;
 
 - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 
-```
-
-```
+- [Destructuring assignment](https://javascript.info/destructuring-assignment)
