@@ -94,6 +94,21 @@ const employee = { ...obj1, ...obj2 }
 console.log(employee); //{ "id": 101, "name": "Jhon Doe", "age": 25, "country": "USA" }
 ```
 
+## Rest Parameters
+
+The rest parameter syntax allows a function to accept an indefinite number of arguments as an array.
+
+```ts
+function sum(...numbers: number[]) {
+  return numbers.reduce((accu, curr) => accu + curr, 0);
+}
+
+console.log(sum(1, 2)); // prints 3
+console.log(sum(1, 2, 3)); // prints 6
+console.log(sum(1, 2, 3, 4)); // prints 10
+console.log(sum(1, 2, 3, 4, 5)); // prints 15
+```
+
 ## 🔖 References
 
 - [JavaScript: Var, Let, or Const? Which One Should you Use?](https://codeburst.io/javascript-var-let-or-const-which-one-should-you-use-2fd521b050fa)
