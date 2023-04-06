@@ -116,3 +116,5 @@ console.log(sum(1, 2, 3, 4, 5)); // prints 15
 - [Var, Let, and Const – What's the Difference?](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
 - [ES6 Tutorials : SPREAD Operator with Fun](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
+
+- [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
