@@ -109,6 +109,31 @@ console.log(sum(1, 2, 3, 4)); // prints 10
 console.log(sum(1, 2, 3, 4, 5)); // prints 15
 ```
 
+## Array & Object Destructruing
+
+Destructuring assignment is a special syntax that allows us to “unpack” arrays or objects into a bunch of variables, as sometimes that’s more convenient.
+
+```ts
+// Array destructuring
+const fruits = ['Apple', 'Banana', 'Mango'];
+
+// instead of using this
+let fruit1 = fruits[0];
+let fruit2 = fruits[1];
+
+// use this
+let [fruit_1, fruit_2] = fruits;
+// fruit_1 -> 'Apple'
+// fruit_2 -> 'Banana'
+
+// Object destructuring
+const user = { firstName: 'Ahmed', lastName: 'Abu Qahf', age: 27 };
+
+const { firstName, age } = user;
+// firstName -> 'Ahmed'
+// age -> 27
+```
+
 ## 🔖 References
 
 - [JavaScript: Var, Let, or Const? Which One Should you Use?](https://codeburst.io/javascript-var-let-or-const-which-one-should-you-use-2fd521b050fa)
@@ -118,3 +143,7 @@ console.log(sum(1, 2, 3, 4, 5)); // prints 15
 - [ES6 Tutorials : SPREAD Operator with Fun](https://www.codingame.com/playgrounds/7998/es6-tutorials-spread-operator-with-fun)
 
 - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+```
+
+```
