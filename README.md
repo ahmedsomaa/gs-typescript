@@ -11,3 +11,5 @@ A repo for TypeScript notes for anyone who is starting to learn TypeScript.
 - [TypeScript Compiler](./COMPILER.md)
 
 - [TypeScript & Modern JavaScript](./MODERN.md)
+
+- [Classes & Interfaces](./CLASSES.md)
