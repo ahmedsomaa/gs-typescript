@@ -129,6 +129,11 @@ let [fruit_1, fruit_2] = fruits;
 // Object destructuring
 const user = { firstName: 'Ahmed', lastName: 'Abu Qahf', age: 27 };
 
+// instead of using the dot or bracket notation
+let firstName = user.firstName;
+let age = user['age'];
+
+// use destructuring
 const { firstName, age } = user;
 // firstName -> 'Ahmed'
 // age -> 27
