@@ -5,7 +5,7 @@
 Introduced in ES6.
 
 `const` is used to declare constants while `let` is used to declare variables.
-`var` is till there but not recommended for usage and `let` is preferred because `var` declarations are globaly-scoped or function-scoped while `let` declarations are block-scoped.
+`var` is till there but not recommended for usage and `let` is preferred because `var` declarations are globaly-scoped and function-scoped while `let` declarations are block-scoped.
 
 ```js
 if (true) {
@@ -117,11 +117,11 @@ Destructuring assignment is a special syntax that allows us to “unpack” arra
 // Array destructuring
 const fruits = ['Apple', 'Banana', 'Mango'];
 
-// instead of using this
+// old: access by index
 let fruit1 = fruits[0];
 let fruit2 = fruits[1];
 
-// use this
+// new: destructuring
 let [fruit_1, fruit_2] = fruits;
 // fruit_1 -> 'Apple'
 // fruit_2 -> 'Banana'
@@ -129,6 +129,11 @@ let [fruit_1, fruit_2] = fruits;
 // Object destructuring
 const user = { firstName: 'Ahmed', lastName: 'Abu Qahf', age: 27 };
 
+// old: the dot or bracket notation
+let firstName = user.firstName;
+let age = user['age'];
+
+// new: destructuring
 const { firstName, age } = user;
 // firstName -> 'Ahmed'
 // age -> 27
