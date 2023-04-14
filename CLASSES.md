@@ -12,12 +12,15 @@ To create a class in TypeScript, use the keyword `class` followed by the class n
 
 ```ts
 class Footballer {
-    _name: string;
-    _age: number;
+  _name: string;
+  _age: number;
 
-    constructor(name: string, age: number) {
-        this._name = name;
-        this._age = age;
-    }
+  constructor(name: string, age: number) {
+    this._name = name;
+    this._age = age;
+  }
 }
+
+// instantiate an object
+let messi = new Footballer('Lionel Messi', 34);
 ```
