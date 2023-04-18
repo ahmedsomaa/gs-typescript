@@ -21,7 +21,7 @@ class Footballer {
   }
 }
 
-// instantiate an object
+// create an object
 let messi = new Footballer('Lionel Messi', 34);
 ```
 
