@@ -108,3 +108,7 @@ class MathCourse extends Course {
   }
 }
 ```
+
+## 🔖 References
+
+- [What are access modifiers in TypeScript?](https://www.educative.io/answers/what-are-access-modifiers-in-typescript)
