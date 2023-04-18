@@ -62,7 +62,7 @@ Private variables and methods cannot be accessed outside the classes. The privat
 
 ```ts
 class Course {
-  private courseNumber: string; // this is a public property by default
+  private courseNumber: string; // this is a private property
 
   constructor(courseNumber: string) {
     this.courseNumber = courseNumber;
@@ -78,4 +78,33 @@ class Course {
 const biology = new Course('BIO101');
 console.log(biology.getCourseNumber()); // prints BIO101
 console.log(biology.courseNumber); //throws an error: Property 'courseNumber' is private and only accessible within class 'Course'.
+```
+
+### Protected Access Modifier
+
+Protected variables and methods can be accessed inside the containing class and its child classes (derived classes).
+
+```ts
+class Course {
+  protected courseNumber: string; // this is a protected property
+
+  constructor(courseNumber: string) {
+    this.courseNumber = courseNumber;
+  }
+
+  // public method
+  getCourseNumber(): string {
+    return this.courseNumber;
+  }
+}
+
+class MathCourse extends Course {
+  constructor(courseNumber: string) {
+    super(courseNumber);
+  }
+
+  toString(): string {
+    return `Course Name: Math, CourseNumber: ${this.courseNumber}`; // accessible because of protected
+  }
+}
 ```
