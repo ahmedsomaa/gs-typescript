@@ -24,3 +24,11 @@ class Footballer {
 // instantiate an object
 let messi = new Footballer('Lionel Messi', 34);
 ```
+
+## Access Modifiers
+
+An **access modifier** specifies the accessibility of the class variable or method outside the class. Three access modifiers are available:
+
+- Public
+- Private
+- Protected
