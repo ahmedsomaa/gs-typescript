@@ -98,6 +98,7 @@ class Course {
   }
 }
 
+// inherited class
 class MathCourse extends Course {
   constructor(courseNumber: string) {
     super(courseNumber);
