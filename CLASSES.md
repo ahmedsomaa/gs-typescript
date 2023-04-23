@@ -85,6 +85,7 @@ console.log(biology.courseNumber); //throws an error: Property 'courseNumber' is
 Protected variables and methods can be accessed inside the containing class and its child classes (derived classes).
 
 ```ts
+// base class
 class Course {
   protected courseNumber: string; // this is a protected property
 
@@ -98,6 +99,7 @@ class Course {
   }
 }
 
+// inherited class
 class MathCourse extends Course {
   constructor(courseNumber: string) {
     super(courseNumber);
