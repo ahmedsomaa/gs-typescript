@@ -154,3 +154,5 @@ class Book {
 ## 🔖 References
 
 - [What are access modifiers in TypeScript?](https://www.educative.io/answers/what-are-access-modifiers-in-typescript)
+- [How to use getters and setters in TypeScript?](https://www.tutorialspoint.com/how-to-use-getters-and-setters-in-typescript)
+- [TypeScript Getters and Setters](https://www.typescripttutorial.net/typescript-tutorial/typescript-getters-setters/)
