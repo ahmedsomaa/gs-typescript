@@ -109,6 +109,46 @@ class MathCourse extends Course {
 }
 ```
 
+## Getters and Setters
+
+In TypeScript, The getters and setters are two terms that can be used to get and set the value of the class members.
+For each property:
+
+- A **getter** method returns the value of the property’s value. A getter is also called an _accessor_.
+- A **setter** method updates the property’s value. A setter is also known as a _mutator_.
+
+A getter method starts with the keyword `get` and a setter method starts with the keyword `set`.
+
+```ts
+class Book {
+  private _bookName: string;
+  private _bookISBN: string;
+
+  constructor(bookName: string, bookISBN: string) {
+    this._bookName = bookName;
+    this._bookISBN = bookISBN;
+  }
+
+  // getters
+  public get bookName() {
+    return this._bookName;
+  }
+
+  public get bookISBN() {
+    return this._bookISBN;
+  }
+
+  // setters
+  public set bookName(bookName: string) {
+    this._bookName = bookName;
+  }
+
+  public set bookISBN(bookISBN: string) {
+    this._bookISBN = bookISBN;
+  }
+}
+```
+
 ## 🔖 References
 
 - [What are access modifiers in TypeScript?](https://www.educative.io/answers/what-are-access-modifiers-in-typescript)
